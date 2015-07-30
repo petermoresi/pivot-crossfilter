@@ -1,4 +1,5 @@
-// Pivot-js
+// pivot-crossfilter
+// A simple (and highly limited) pivot function for crossfilter
 // Copyright 2015 Peter Moresi
 
 import crossfilter from 'crossfilter';
