@@ -1,0 +1,26 @@
+{
+  "name": "pivot-crossfilter",
+  "version": "1.0.0",
+  "description": "A simple pivot function for crossfilter.",
+  "main": "lib/pivot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermoresi/pivot-crossfilter.git"
+  },
+  "keywords": [
+    "pivot",
+    "crossfilter"
+  ],
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermoresi/pivot-crossfilter/issues"
+  },
+  "homepage": "https://github.com/petermoresi/pivot-crossfilter#readme",
+  "dependencies": {
+    "crossfilter": "^1.3.12"
+  }
+}
