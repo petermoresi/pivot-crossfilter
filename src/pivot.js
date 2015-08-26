@@ -4,7 +4,7 @@
 
 import crossfilter from 'crossfilter';
 
-export function pivot(facts, row, col) {
+export default function pivot(facts, row, col) {
     let rowDim = facts.dimension( (d) => { return d[row]; } ),
         colDim = facts.dimension( (d) => { return d[col]; } ),
         rowColDim = facts.dimension( (d) => { return `${d[row]}|${d[col]}`; } ),
@@ -25,10 +25,10 @@ export function pivot(facts, row, col) {
     m(rows, rowMap);
     m(cols, colMap);
     m(product, productMap);
-    
+
     out[`${row}`] = rowMap;
     out[`${col}`] = colMap;
     out[`${row}|${col}`] = productMap;
- 
+
     return out;
 }

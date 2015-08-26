@@ -1,6 +1,6 @@
 {
   "name": "pivot-crossfilter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple pivot function for crossfilter.",
   "main": "lib/pivot.js",
   "scripts": {
